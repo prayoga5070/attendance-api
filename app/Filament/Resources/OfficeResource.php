@@ -60,10 +60,8 @@ class OfficeResource extends Resource
                                 Forms\Components\Group::make()
                                 ->schema([
                                     Forms\Components\TextInput::make('latitude')
-                                        ->required()
                                         ->numeric(),
                                     Forms\Components\TextInput::make('longitude')
-                                        ->required()
                                         ->numeric(),
                                 ])->columns(2)
                             ]),
